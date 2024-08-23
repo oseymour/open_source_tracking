@@ -1,0 +1,14 @@
+path: football-players-detection.v12i.yolov8
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['ball', 'goalkeeper', 'player', 'referee']
+
+roboflow:
+  workspace: roboflow-jvuqo
+  project: football-players-detection-3zvbc
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/12
