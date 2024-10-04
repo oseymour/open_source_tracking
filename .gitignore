@@ -1,9 +1,13 @@
 *.ipynb_checkpoints
 *__pycache__
+*.venv
 
 *football-field-detection.v15i.yolov8
 *football-players-detection.v12i.yolov8
 keypoint_detection_model/yolov8n.pt
+keypoint_detection_model/yolo11n.pt
 player_and_ball_detection_model/yolov8n.pt
+player_and_ball_detection_model/yolo11n.pt
 player_and_ball_detection_model/inference_output.mp4
 keypoint_detection_model/inference_output.mp4
+
