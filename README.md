@@ -10,7 +10,9 @@ I got my training data from the following locations:
 
 # Pretrained weights
 - [YOLOv8x detection for player and ball tracking](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x.pt)
+    - Place this in the `player_and_ball_detection_model` folder
 - [YOLOv8x pose for pitch keypoint detection](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x-pose.pt)
+    - Place this in the `keypoint_detection_model` folder
 
 To download the Roboflow data for yourself:
 1. Click "Download Project".
@@ -20,5 +22,5 @@ To download the Roboflow data for yourself:
 5. Select "Download zip to computer".
 6. Click "Continue". The dataset ZIP will download.
 7. When the download is complete, unzip the data. The unzipped folder should contain `test`, `train`, and `valid` folders as well as `data.yaml` and a couple of READMEs.
-8. Move the unzipped folder to the appropriate `datasets` folder. either under `player_and_ball_detection_model` or `keypoint_detection_model`.
+8. Move the unzipped folder to the appropriate `datasets` folder. Either under `player_and_ball_detection_model` or `keypoint_detection_model`.
 
