@@ -8,6 +8,10 @@ I got my training data from the following locations:
 - [Pitch keypoint dataset](https://universe.roboflow.com/roboflow-jvuqo/football-field-detection-f07vi) (version 15)
 - [Bundesliga Data Shootout data](https://www.kaggle.com/datasets/saberghaderi/-dfl-bundesliga-460-mp4-videos-in-30sec-csv?resource=download-directory) (used this as input videos to test models)
 
+# Pretrained weights
+- [YOLOv8x detection for player and ball tracking](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x.pt)
+- [YOLOv8x pose for pitch keypoint detection](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8x-pose.pt)
+
 To download the Roboflow data for yourself:
 1. Click "Download Project".
 2. Select the dataset version you want. The versions I used are listed above.
