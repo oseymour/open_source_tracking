@@ -1,0 +1,23 @@
+model_to_train: "player_and_ball"
+# model_to_train: "pitch_keypoint"
+
+player_and_ball:
+  project_dir: "player_and_ball_detection_model"
+  dataset_name: "football-players-detection.v12i.yolov8"
+  pretrained_weights: "yolov8x.pt"
+  imgsz: 1280
+  batch_size: 1
+  epochs: 500
+  class_labels:
+    0: "ball"
+    1: "gk"
+    2: "player"
+    3: "ref"
+
+pitch_keypoint:
+  project_dir: "keypoint_detection_model"
+  dataset_name: "football-field-detection.v15i.yolov8"
+  pretrained_weights: "yolov8x-pose.pt"
+  imgsz: 640
+  batch_size: 2
+  epochs: 200
